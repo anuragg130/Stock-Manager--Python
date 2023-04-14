@@ -1,0 +1,21 @@
+sales
+
+sale_master 
+|
+sale_Master_id int| primary key| identity
+sale_date date
+customer_name	varchar
+contact_no		varchar
+
+sale_transactions
+|
+transaction_id
+product_id		int|foriegn key| ref product table
+quantity
+price
+sale_master id	fk
+
+
+
+stock
+|
